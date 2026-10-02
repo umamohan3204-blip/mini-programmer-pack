@@ -111,3 +111,31 @@ footer {
     padding: 30px;
     color: #8993a5;
 }
+
+.ad-box {
+    width: 160px;
+    min-height: 300px;
+    padding: 12px;
+    margin: 20px auto;
+    border: 1px solid #273248;
+    border-radius: 12px;
+    background: #111827;
+    text-align: center;
+    color: #8993a5;
+    font-size: 11px;
+}
+
+@media (min-width: 1000px) {
+    .ad-box {
+        position: fixed;
+        right: 15px;
+        top: 180px;
+    }
+}
+
+@media (max-width: 999px) {
+    .ad-box {
+        width: 100%;
+        max-width: 320px;
+    }
+}
