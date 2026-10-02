@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0f19;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: #111827;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+header p {
+    color: #b8c1d1;
+    margin-bottom: 30px;
+}
+
+.button,
+button {
+    display: inline-block;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+
+    gap: 20px;
+}
+
+.card {
+    background: #151c2c;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #273248;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #b8c1d1;
+}
+
+pre {
+    background: #05070c;
+    padding: 25px;
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.buy {
+    text-align: center;
+    background: #151c2c;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    color: #9ca3af;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8993a5;
+}
